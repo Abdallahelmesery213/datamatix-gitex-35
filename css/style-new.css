@@ -476,20 +476,35 @@ footer .logo {
 footer .logo span {
   font-family: boldFont;
 }
+footer .social a i {
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
 footer h5 {
-  font-family: bruumBold;
+  /* font-family: bruumBold;
   color: #1b75ba;
-  font-size: 18px;
+  font-size: 18px; */
+  color: #ed1c24;
+  font-family: bruumBold;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 footer form button.btn {
   display: flex;
   padding: 5px 10px;
 }
-footer .links span a {
+footer .links a {
   color: #000;
-  font-size: 16px;
-  cursor: pointer;
-  text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 7px;
 }
 footer .links span:hover {
   color: #8f631c;
@@ -508,7 +523,7 @@ footer p.footr {
   margin-bottom: 30px;
 }
 footer .copy-right {
-  background-color: #1b75ba;
+  background-color: #000;
   color: #fff;
 }
 footer .copy-right p {
